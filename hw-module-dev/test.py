@@ -6,7 +6,7 @@ import json
 def show_time():
     date = str(datetime.datetime.now())
     print json.dumps({
-        "time" : date
+        "time" : date,
         "test" : 'hello world'
     })
 
